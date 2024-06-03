@@ -1,0 +1,39 @@
+*{/*selector universal*/
+    margin: 0;
+    padding: 0;
+    color: aquamarine;
+}
+
+/*selector etiqueta*/
+ h1{
+    color:blue;
+    margin: 10px;
+    font-size: 30px;
+ }
+h2{
+    margin: 15px;
+    color: coral;
+    font-size: 25px;
+}
+ div > p{/*selector hijo*/
+    font-size: 15px;
+    color: darkslategrey;
+
+}
+.texto1{/*Selector de clase*/
+    font-size: 30px;
+    color:blueviolet;
+}
+#valor , #valor1{
+    color: brown;
+    font-size: 25px;
+    font-family: Arial;
+
+}
+div{
+    margin: 50px auto;
+    width: 400px;
+    border-style: solid;
+    
+
+}
